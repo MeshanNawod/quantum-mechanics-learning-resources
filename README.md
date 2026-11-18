@@ -1,51 +1,44 @@
-# Quantum Mechanics: Analytical Solutions & Numerical Simulations
+<div align="center">
 
-A collection of computational scripts, analytical derivations, and problem sets exploring core concepts in quantum mechanics, wave mechanics, and operator algebra.
+# 🌊 Quantum Wave Lab
 
----
+An interactive lab for wave superposition and Fourier series: build a wave packet from N waves and explore its probability density, quantum properties and orthogonality.
 
-## 🚀 Key Topics & Features
+[![Live demo](https://img.shields.io/badge/Live_demo-Open_in_browser-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://meshannawod.github.io/quantum-mechanics-learning-resources/)
 
-* **Time-Independent Schrödinger Equation (TISE):** Numerical and analytical solutions for various potential wells, harmonic oscillators, and barrier potentials.
-* **Operator Algebra & Commutator Relations:** Implementation of quantum mechanical operators, expectation values, and uncertainty principle verifications.
-* **Quantum Dynamics:** Explorations of wave packet propagation, time evolution operators, and state transitions.
-* **Perturbation Theory & Approximation Methods:** Scripts and notebooks illustrating first-order perturbation theory and variational methods.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
----
+<img src="docs/screenshot.png" alt="Quantum Wave Lab" width="860">
 
-## 🛠️ Tech Stack & Tools
+</div>
 
-* **Primary Language:** Python
-* **Libraries:** NumPy, SciPy, SymPy (for symbolic algebra and analytical derivations), Matplotlib (for wave function and probability density visualizations)
-* **Environment:** Jupyter Notebooks
+## Features
 
----
+- **Wave view:** add up N = 1, 5, 50, 500 or ∞ component waves and animate the result
+- **Probability:** the probability density |ψ|² of the superposed wave
+- **Quantum properties:** expectation values and spreads, linked to the uncertainty principle
+- **Orthogonality:** check numerically that the basis functions are orthogonal
+- **Reference:** the formulas used, in one place
+- Sliders for amplitude, frequency spread and the other parameters, with a live k-space spectrum
 
-## 📂 Repository Structure
+## Run locally
+
+Download the repository and open `wave_superposition.html` in a browser. Chart.js loads from a CDN.
+
+## Files
 
 ```text
-├── notebooks/           # Interactive Jupyter notebooks with step-by-step derivations and plots
-├── scripts/             # Reusable Python modules for quantum solvers and numerical integration
-├── derivations/         # Markdown and LaTeX documents detailing analytical proofs
-└── assets/              # Generated plots, wave function animations, and figures
+index.html               opens the lab (GitHub Pages home)
+wave_superposition.html  the Quantum Wave Lab
+docs/                    screenshot
+```
 
-⚙️ Getting Started
-Prerequisites
-Make sure you have Python installed along with the required scientific computing libraries:
-pip install numpy scipy matplotlib sympy jupyter
+See also **[physics-learning-resources](https://github.com/MeshanNawod/physics-learning-resources)** for the hydrogen atom and quantum lab simulations.
 
-Running the Notebooks
- * Clone the repository:
-   git clone [https://github.com/MeshanNawod/Quantum-Mechanics.git](https://github.com/MeshanNawod/Quantum-Mechanics.git)
-cd Quantum-Mechanics
+## Author
 
- * Launch Jupyter Notebook:
-   jupyter notebook
+Made by **Meshan Nawod**, Physics undergraduate at the University of Peradeniya · [Portfolio](https://meshannawod.github.io/) · [GitHub](https://github.com/MeshanNawod)
 
- * Open any notebook in the notebooks/ directory to explore the simulations and calculations.
-👥 Author
- * Meshan Nawod (S/22/314)
-   Faculty of Science, University of Peradeniya
-📄 License
-This repository is maintained for academic and self-directed study purposes.
+## License
 
+MIT. See [LICENSE](LICENSE).
