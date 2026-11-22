@@ -6,7 +6,7 @@ An interactive lab for wave superposition and Fourier series: build a wave packe
 
 [![Live demo](https://img.shields.io/badge/Live_demo-Open_in_browser-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://meshannawod.github.io/quantum-mechanics-learning-resources/)
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white) ![License: GPL v2+](https://img.shields.io/badge/License-GPL_v2%2B-blue?style=flat-square)
 
 <img src="docs/screenshot.png" alt="Quantum Wave Lab" width="860">
 
@@ -41,4 +41,4 @@ Made by **Meshan Nawod**, Physics undergraduate at the University of Peradeniya 
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+GPL-2.0-or-later. See [LICENSE](LICENSE).
